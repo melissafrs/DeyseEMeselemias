@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+
+body{
+    position: absolute;
+    padding: 10px;
+    height: 200px;
+    font-family: 'Zen Old Mincho', serif;
+    color: #546687;;
+}
+.newButton{
+    font-family: 'mongolia-bait';
+    src: url('/monbaiti.ttf') format('truetype');
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #546687;
+    border-radius: 50%;
+    right: 1em;
+    top: 20em;
+}
+#newPlane{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 4px;
+    right: 5px;
+}
+
+h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: 48px;
+    font-weight: semi-bold;
+    color: #546687;
+    margin: 30px 0 5px 0;
+}
+
+h2 {
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    color: #546687;
+    position: relative;
+    top: 2em;
+    font-weight: normal;
+    text-align: center;
+}
+fieldset {
+    border: 0;
+    margin-bottom: 20px;
+}
+.full-width label:nth-of-type(1) {
+    display: block;
+    font-size: 18px;
+    color: #546687;
+    padding-top: 3em;
+}
+
+.full-width input {
+    border: 0;
+    border-bottom: 2px solid#546687;
+    width: 100%;
+    line-height: 28px;
+    font-size: 14px;
+    outline: none;
+    background: transparent;
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    color: #546687;
+}
+
+.half-width label {
+    display: inline-block;
+    margin-right: 20px;
+    line-height: 28px;
+    font-size: 18px;
+    color: #546687;
+    padding-top: 2em;
+    
+}
+
+.half-width input {
+    border: 0;
+    border-bottom: 2px solid#546687;
+    line-height: 28px;
+    font-size: 14px;
+    outline: none;
+    width: 70px;
+    text-align: center;
+    background: transparent;
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    color: #546687;
+}
+
+.checkbox input {
+    border: 2px solid#546687;
+    height: 28px;
+    width: 28px;
+    background-color: transparent !important;
+    color:#5a6685;
+}
+.form-check{
+    padding-top: 3em;
+}
