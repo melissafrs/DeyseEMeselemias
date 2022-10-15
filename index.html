@@ -15,7 +15,8 @@
     <title>Deyse e Meselemias</title>
 </head>
 <body>
-    <audio autoplay>
+    
+    <audio id="player" autoplay>
         <source src="s23.mp3" type="audio/mp3" />
     </audio>
 
@@ -58,5 +59,23 @@
         </section>
 
 </body>
-    <script src="/main.js"></script>
+    <script>
+        function confirmar(url, msg){
+            
+            event.preventDefault();  
+            var resposta = confirm(msg);
+            if (resposta == true){
+                top.location.href = url;
+            }
+        } 
+
+        navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+        
+        var x = document.getElementById("player"); 
+        x.play();
+     
+         // stop microphone stream acquired by getUserMedia
+         stream.getTracks().forEach(function (track) { track.stop(); });
+     });
+    </script>
 </html>

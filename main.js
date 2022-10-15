@@ -6,3 +6,6 @@ function confirmar(url, msg){
         top.location.href = url;
 	}
 }
+
+var x = document.getElementById("player"); 
+  x.play(); 
